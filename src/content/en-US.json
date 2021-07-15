@@ -1,0 +1,66 @@
+{
+    "application": {
+        "title": "Business Rules",
+        "copyright": "© 2021 Korn Ferry. All rights reserved.",
+        "buttons": {
+            "cancel": "Cancel",
+            "save": "Save"
+        }
+    },
+    "rulesEngine": {
+        "loading": "Please wait...",
+        "alerts": {
+            "created": "Rule created",
+            "updated": "Rule updated"
+        },
+        "labels": {
+            "name": "Name",
+            "group": "Group",
+            "status": "Status",
+            "category": "Category",
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "validationErrors": {
+            "required": "Required",
+            "idRequired": "Id is required",
+            "nameRequired": "Name is required",
+            "groupRequired": "Group is required",
+            "categoryRequired": "Category is required"
+        },
+        "rulesList": {
+            "title": "Business Rules Overview",
+            "instructions": "Velit id phasellus velit bibendum. Ut nisl gravida proin placerat sit. Integer ac quam tortor ac, at sit viverra. Sed rutrum risus aliquam sed lacus a risus morbi. Bibendum tellus iaculis est risus parturient aliquam augue.",
+            "searchPlaceholder": "Search for a business rule",
+            "buttons": {
+                "createRule": "Create a Rule"
+            },
+            "pagination": {
+                "itemsShown": "1 – ${pageSize} of ${itemCount} items",
+                "navigation": "${pageIndex} of ${pageCount} pages",
+                "pageSize": "Items per page:"
+            }
+        },
+        "createRule": {
+            "title": "Create a Business Rule",
+            "instructions": "Create a new Business Rule by selecting from the options below and choosing the category you want to configure."
+            
+        },
+        "updateRule": {
+            "title": "Update Business Rule",
+            "instructions": "Velit id phasellus velit bibendum. Ut nisl gravida proin placerat sit. Integer ac quam tortor ac, at sit viverra. Sed rutrum risus aliquam sed lacus a risus morbi. Bibendum tellus iaculis est risus parturient aliquam augue."
+        }
+    },
+    "modals": {
+        "errorModal": {
+            "header": "Error",
+            "toggleDetails": {
+                "showMoreLabel": "see more",
+                "showLessLabel": "see less"
+            },
+            "buttons": {
+                "ok": "OK"
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.app {
+    padding: 0 80px 185px 80px;
+
+    &-title {
+        width: 105px;
+        height: 24px;
+        margin: 24px 80px 9px 0;
+        //font-family: Gotham-Black;
+        font-size: 1em !important;
+        font-weight: bold;
+        text-align: left;
+        color: #00c29b;
+    }
+
+}
+
+.col-override {
+    padding-right: 0;
+    padding-left: 0;
+    position: initial;
+}
